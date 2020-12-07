@@ -1,6 +1,6 @@
-# node-typescript-ddd
+# node-typescript
 
-The most ambitious project ever
+The most ambitious project ever, or not ;)
 
 ## Documentation
 
