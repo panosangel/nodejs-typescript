@@ -1,14 +1,8 @@
 module.exports = {
   root: true,
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
     'es6': true,
     'node': true,
   },
-  rules: {
-    'prettier/prettier': 'error'
-  },
-  plugins: [
-    'prettier'
-  ]
 }
