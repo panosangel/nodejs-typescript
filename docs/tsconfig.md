@@ -1,5 +1,10 @@
 # TSconfig Options
 
+##  Dump effective config file
+```shell
+tsc --showConfig
+```
+
 ## Sources
 - [Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 - [What TypeScript configuration produces output closest to Node.js 14 capabilities?](https://stackoverflow.com/questions/61305578/what-typescript-configuration-produces-output-closest-to-node-js-14-capabilities/61305579#61305579)
