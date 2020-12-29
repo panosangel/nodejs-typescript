@@ -1,6 +1,6 @@
-# node-typescript
+# nodejs-typescript
 
-The most ambitious project ever, or not ;)
+A Node.js + TypeScript project starter
 
 ## Documentation
 
