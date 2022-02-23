@@ -11,8 +11,8 @@ module.exports = {
     'plugin:prettier/recommended', // Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
   ],
   env: {
-    es6: true,
-    node: true,
+    es2021: true, // Adds all ECMAScript 2021 globals and automatically sets the ecmaVersion parser option to 12
+    node: true, // Enable Node.js global variables
   },
   rules: {},
 };
