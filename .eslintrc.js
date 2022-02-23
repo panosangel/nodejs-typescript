@@ -1,6 +1,9 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
+  parserOptions: {
+    sourceType: 'module', // Allows for the use of imports
+  },
   extends: [
     'eslint:recommended', // The set of rules which are recommended for all projects by the ESLint Team
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
